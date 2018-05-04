@@ -1,0 +1,15 @@
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\04授课源代码\PB_FZDemo\PB_FZDemo\bin\Debug\PB_FZDemo.exe
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\04授课源代码\PB_FZDemo\PB_FZDemo\bin\Debug\PB_FZDemo.pdb
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\04授课源代码\PB_FZDemo\PB_FZDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\04授课源代码\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.exe
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\04授课源代码\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.pdb
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\06附加练习\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.exe
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\06附加练习\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.pdb
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\06附加练习\PB_FZDemo\PB_FZDemo\bin\Debug\PB_FZDemo.exe
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\06附加练习\PB_FZDemo\PB_FZDemo\bin\Debug\PB_FZDemo.pdb
+E:\_OOP优化---封装\_mine\4.电子资料\01.C#OOP优化\Topic02\06附加练习\PB_FZDemo\PB_FZDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter04\14.当页下载文档\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.exe
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter04\14.当页下载文档\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.pdb
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter04\14.当页下载文档\PB_FZDemo\PB_FZDemo\bin\Debug\PB_FZDemo.exe
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter04\14.当页下载文档\PB_FZDemo\PB_FZDemo\bin\Debug\PB_FZDemo.pdb
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter04\14.当页下载文档\PB_FZDemo\PB_FZDemo\obj\x86\Debug\PB_FZDemo.csprojResolveAssemblyReference.cache

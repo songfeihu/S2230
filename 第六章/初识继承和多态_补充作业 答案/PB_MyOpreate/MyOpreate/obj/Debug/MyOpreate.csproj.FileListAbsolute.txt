@@ -1,0 +1,14 @@
+E:\北极星\4.课程开发\2.教学指导书\3.C#面向对象程序设计\ch11\作业答案\作业3\MyOpreate\MyOpreate\obj\Debug\MyOpreate.exe
+E:\北极星\4.课程开发\2.教学指导书\3.C#面向对象程序设计\ch11\作业答案\作业3\MyOpreate\MyOpreate\obj\Debug\MyOpreate.pdb
+E:\北极星\4.课程开发\2.教学指导书\3.C#面向对象程序设计\ch11\作业答案\作业3\MyOpreate\MyOpreate\bin\Debug\MyOpreate.exe
+E:\北极星\4.课程开发\2.教学指导书\3.C#面向对象程序设计\ch11\作业答案\作业3\MyOpreate\MyOpreate\bin\Debug\MyOpreate.pdb
+E:\北极星\4.课程开发\2.教学指导书\3.C#面向对象程序设计\ch11\作业答案\作业3\MyOpreate\MyOpreate\obj\Debug\ResolveAssemblyReference.cache
+E:\work\课件开发\PBDEVN2.0\电子资料\C# OOP\Topic 08\02课后练习题\源文档\课后练习答案\简单题3源代码\MyOpreate\MyOpreate\obj\Debug\MyOpreate.exe
+E:\work\课件开发\PBDEVN2.0\电子资料\C# OOP\Topic 08\02课后练习题\源文档\课后练习答案\简单题3源代码\MyOpreate\MyOpreate\obj\Debug\MyOpreate.pdb
+E:\work\课件开发\PBDEVN2.0\电子资料\C# OOP\Topic 08\02课后练习题\源文档\课后练习答案\简单题3源代码\MyOpreate\MyOpreate\bin\Debug\MyOpreate.exe
+E:\work\课件开发\PBDEVN2.0\电子资料\C# OOP\Topic 08\02课后练习题\源文档\课后练习答案\简单题3源代码\MyOpreate\MyOpreate\bin\Debug\MyOpreate.pdb
+E:\work\课件开发\PBDEVN2.0\电子资料\C# OOP\Topic 08\02课后练习题\源文档\课后练习答案\简单题3源代码\MyOpreate\MyOpreate\obj\Debug\ResolveAssemblyReference.cache
+G:\课件开发\PBDEVN2.0\c# OOP\Topic04\02附加练习\课后练习题及答案\PB_MyOpreate\MyOpreate\obj\Debug\MyOpreate.exe
+G:\课件开发\PBDEVN2.0\c# OOP\Topic04\02附加练习\课后练习题及答案\PB_MyOpreate\MyOpreate\obj\Debug\MyOpreate.pdb
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\编程题答案\PB_MyOpreate\MyOpreate\obj\Debug\MyOpreate.exe
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\编程题答案\PB_MyOpreate\MyOpreate\obj\Debug\MyOpreate.pdb

@@ -1,0 +1,6 @@
+F:\TecahCode\S2230NET\S2230NET\Day07_0200抽象类\bin\Debug\Day07_0200抽象类.exe.config
+F:\TecahCode\S2230NET\S2230NET\Day07_0200抽象类\obj\Debug\Day07_0200抽象类.csprojResolveAssemblyReference.cache
+F:\TecahCode\S2230NET\S2230NET\Day07_0200抽象类\bin\Debug\Day07_0200抽象类.exe
+F:\TecahCode\S2230NET\S2230NET\Day07_0200抽象类\bin\Debug\Day07_0200抽象类.pdb
+F:\TecahCode\S2230NET\S2230NET\Day07_0200抽象类\obj\Debug\Day07_0200抽象类.exe
+F:\TecahCode\S2230NET\S2230NET\Day07_0200抽象类\obj\Debug\Day07_0200抽象类.pdb

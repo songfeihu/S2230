@@ -1,0 +1,12 @@
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-3.对象交互\2.案例\案例1：对象交互\答案\Demo\TvDemo\bin\Debug\TvDemo.exe.config
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-3.对象交互\2.案例\案例1：对象交互\答案\Demo\TvDemo\bin\Debug\TvDemo.exe
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-3.对象交互\2.案例\案例1：对象交互\答案\Demo\TvDemo\bin\Debug\TvDemo.pdb
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-3.对象交互\2.案例\案例1：对象交互\答案\Demo\TvDemo\obj\Debug\TvDemo.csprojResolveAssemblyReference.cache
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-3.对象交互\2.案例\案例1：对象交互\答案\Demo\TvDemo\obj\Debug\TvDemo.exe
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-3.对象交互\2.案例\案例1：对象交互\答案\Demo\TvDemo\obj\Debug\TvDemo.pdb
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\TvDemo\bin\Debug\TvDemo.exe.config
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\TvDemo\obj\Debug\TvDemo.exe
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\TvDemo\obj\Debug\TvDemo.pdb
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\TvDemo\bin\Debug\TvDemo.exe
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\TvDemo\bin\Debug\TvDemo.pdb
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\TvDemo\obj\Debug\TvDemo.csprojResolveAssemblyReference.cache

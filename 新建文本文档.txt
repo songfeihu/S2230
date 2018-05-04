@@ -1,0 +1,16 @@
+mkdir 项目名称
+cd  项目名称
+git init 把它变成可管理的Git仓库
+git status 查看状态
+git add . 点用空格隔开
+git status 查看状态
+git commit -m"注释"  提交 
+git remote add origin   Github里你的仓库地址
+ git push -u origin master 登录提交 
+git pull --rebase origin master
+解决命令异常
+
+ssh-keygen -t rsa -C "youremail@example.com"
+生成SSH
+
+更多命令 https://www.cnblogs.com/binglong180/p/8001487.html

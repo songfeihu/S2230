@@ -1,0 +1,24 @@
+D:\C#OOP\第三章 使用集合组织相关数据\C# OOP-ch03-1.集合概述\2.案例\案例1：使用集合组织相关数据\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe.config
+D:\C#OOP\第三章 使用集合组织相关数据\C# OOP-ch03-1.集合概述\2.案例\案例1：使用集合组织相关数据\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe
+D:\C#OOP\第三章 使用集合组织相关数据\C# OOP-ch03-1.集合概述\2.案例\案例1：使用集合组织相关数据\答案\MyOffice\MyOffice\bin\Debug\MyOffice.pdb
+D:\C#OOP\第三章 使用集合组织相关数据\C# OOP-ch03-1.集合概述\2.案例\案例1：使用集合组织相关数据\答案\MyOffice\MyOffice\obj\Debug\MyOffice.csprojResolveAssemblyReference.cache
+D:\C#OOP\第三章 使用集合组织相关数据\C# OOP-ch03-1.集合概述\2.案例\案例1：使用集合组织相关数据\答案\MyOffice\MyOffice\obj\Debug\MyOffice.exe
+D:\C#OOP\第三章 使用集合组织相关数据\C# OOP-ch03-1.集合概述\2.案例\案例1：使用集合组织相关数据\答案\MyOffice\MyOffice\obj\Debug\MyOffice.pdb
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-1.构造函数\2.案例\案例1：构造函数\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe.config
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-1.构造函数\2.案例\案例1：构造函数\答案\MyOffice\MyOffice\obj\Debug\MyOffice.exe
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-1.构造函数\2.案例\案例1：构造函数\答案\MyOffice\MyOffice\obj\Debug\MyOffice.pdb
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-1.构造函数\2.案例\案例1：构造函数\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-1.构造函数\2.案例\案例1：构造函数\答案\MyOffice\MyOffice\bin\Debug\MyOffice.pdb
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-1.构造函数\2.案例\案例1：构造函数\答案\MyOffice\MyOffice\obj\Debug\MyOffice.csprojResolveAssemblyReference.cache
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-2.方法重载\2.案例\案例1：方法重载\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe.config
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-2.方法重载\2.案例\案例1：方法重载\答案\MyOffice\MyOffice\obj\Debug\MyOffice.exe
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-2.方法重载\2.案例\案例1：方法重载\答案\MyOffice\MyOffice\obj\Debug\MyOffice.pdb
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-2.方法重载\2.案例\案例1：方法重载\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-2.方法重载\2.案例\案例1：方法重载\答案\MyOffice\MyOffice\bin\Debug\MyOffice.pdb
+D:\C#OOP\第四章 深入类的方法\C# OOP-ch04-2.方法重载\2.案例\案例1：方法重载\答案\MyOffice\MyOffice\obj\Debug\MyOffice.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\S2\第四章\2.方法重载\案例1：方法重载\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe.config
+C:\Users\Administrator\Desktop\S2\第四章\2.方法重载\案例1：方法重载\答案\MyOffice\MyOffice\obj\Debug\MyOffice.exe
+C:\Users\Administrator\Desktop\S2\第四章\2.方法重载\案例1：方法重载\答案\MyOffice\MyOffice\obj\Debug\MyOffice.pdb
+C:\Users\Administrator\Desktop\S2\第四章\2.方法重载\案例1：方法重载\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe
+C:\Users\Administrator\Desktop\S2\第四章\2.方法重载\案例1：方法重载\答案\MyOffice\MyOffice\bin\Debug\MyOffice.pdb
+C:\Users\Administrator\Desktop\S2\第四章\2.方法重载\案例1：方法重载\答案\MyOffice\MyOffice\obj\Debug\MyOffice.csprojResolveAssemblyReference.cache

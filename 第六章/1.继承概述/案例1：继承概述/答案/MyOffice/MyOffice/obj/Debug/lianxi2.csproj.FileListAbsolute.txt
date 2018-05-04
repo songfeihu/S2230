@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\S2\第六章\1.继承概述\案例1：继承概述\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe.config
+C:\Users\Administrator\Desktop\S2\第六章\1.继承概述\案例1：继承概述\答案\MyOffice\MyOffice\obj\Debug\MyOffice.exe
+C:\Users\Administrator\Desktop\S2\第六章\1.继承概述\案例1：继承概述\答案\MyOffice\MyOffice\obj\Debug\MyOffice.pdb
+C:\Users\Administrator\Desktop\S2\第六章\1.继承概述\案例1：继承概述\答案\MyOffice\MyOffice\bin\Debug\MyOffice.exe
+C:\Users\Administrator\Desktop\S2\第六章\1.继承概述\案例1：继承概述\答案\MyOffice\MyOffice\bin\Debug\MyOffice.pdb

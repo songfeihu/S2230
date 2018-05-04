@@ -1,0 +1,10 @@
+E:\PBDEVN\01.C#OOP优化\Topic06\电子资料\附加练习\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\bin\Debug\PB_DrinkDemo.exe
+E:\PBDEVN\01.C#OOP优化\Topic06\电子资料\附加练习\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\bin\Debug\PB_DrinkDemo.pdb
+E:\PBDEVN\01.C#OOP优化\Topic06\电子资料\附加练习\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\PBDEVN\01.C#OOP优化\Topic06\电子资料\附加练习\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\obj\x86\Debug\PB_DrinkDemo.exe
+E:\PBDEVN\01.C#OOP优化\Topic06\电子资料\附加练习\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\obj\x86\Debug\PB_DrinkDemo.pdb
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\obj\x86\Debug\PB_DrinkDemo.exe
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\obj\x86\Debug\PB_DrinkDemo.pdb
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\bin\Debug\PB_DrinkDemo.exe
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\bin\Debug\PB_DrinkDemo.pdb
+G:\课件开发\ACCP7.0\电子资料\C#OOP\Chapter07\14.当页下载文档\3、编写程序描述咖啡、茶和啤酒\PB_DrinkDemo\PB_DrinkDemo\obj\x86\Debug\PB_DrinkDemo.csprojResolveAssemblyReference.cache

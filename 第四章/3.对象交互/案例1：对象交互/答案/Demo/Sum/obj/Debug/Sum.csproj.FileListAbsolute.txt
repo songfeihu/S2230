@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\Sum\bin\Debug\Sum.exe.config
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\Sum\bin\Debug\Sum.exe
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\Sum\bin\Debug\Sum.pdb
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\Sum\obj\Debug\Sum.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\Sum\obj\Debug\Sum.exe
+C:\Users\Administrator\Desktop\S2\第四章\3.对象交互\案例1：对象交互\答案\Demo\Sum\obj\Debug\Sum.pdb

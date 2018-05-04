@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0049)http://www.cnblogs.com/weilengdeyu/p/3272865.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" type="text/javascript" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/gpt.js"></script>
+
+<title>北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/blog-common.css">
+<link id="MainCss" type="text/css" rel="stylesheet" href="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/style.css">
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/weilengdeyu/rss">
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/weilengdeyu/rsd.xml">
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/weilengdeyu/wlwmanifest.xml">
+<script src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/jquery.js" type="text/javascript"></script>  
+<script type="text/javascript">var currentBlogApp = 'weilengdeyu', cb_enable_mathjax=false;</script>
+<script src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/blog-common.js" type="text/javascript"></script>
+<script async="" type="text/javascript" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/pubads_impl_38.js"></script><script type="text/javascript" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/osd.js"></script></head>
+<body>
+<a name="top"></a>
+<!--PageBeginHtml Block Begin-->
+<a href="http://www.aikuaidi.cn/" target="_blank">快递单号查询</a>
+<!--PageBeginHtml Block End-->
+
+
+	<div class="pagelayout">
+		
+<table width="97%" align="center" cellpadding="2" cellspacing="0">
+<tbody><tr>
+	<td class="mytitle" align="center" width="30%"><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/weilengdeyu/">微冷的雨</a></td>
+	<td>&nbsp;</td>
+	<td width="50%">
+		<table height="30" cellspacing="0" cellpadding="0" width="100%" border="0">
+		<tbody><tr>
+			<td width="100"><a href="http://www.cnblogs.com/"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/icon_hjblog.gif" border="0"></a></td>
+			<td width="10"><a href="http://www.cnblogs.com/logout.aspx"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/out.gif" border="0"></a></td>
+			
+		</tr>
+		</tbody></table>	
+	</td>
+</tr>
+<tr>
+	<td colspan="3" background="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/top.jpg" height="184" valign="middle" align="center"></td>
+</tr>
+</tbody></table>
+
+
+	<table width="90%" align="center" cellpadding="5" cellspacing="0" border="0">
+	<tbody><tr>
+		<td valign="top" width="200">
+				
+<div class="listtitle">公告</div>
+<ul class="list">
+		<li class="listitem">
+			<center><div id="blog-news"><div align="center"><a href="http://www.amazingcounters.com/"><img border="0" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/counter.php" alt="Counter"></a><br><a href="http://www.getisp.info/">high speed broadband</a></div><div id="profile_block">昵称：<a href="http://home.cnblogs.com/u/weilengdeyu/">微冷的雨</a><br>园龄：<a href="http://home.cnblogs.com/u/weilengdeyu/" title="入园时间：2010-12-05">3年4个月</a><br>粉丝：<a href="http://home.cnblogs.com/u/weilengdeyu/followers/">132</a><br>关注：<a href="http://home.cnblogs.com/u/weilengdeyu/followees/">115</a><div id="p_b_follow"></div></div></div><script type="text/javascript">loadBlogNews();</script></center>
+	</li>
+</ul>
+				<div class="listtitle">日历</div>
+			<table width="100%" height="200">
+			<tbody><tr>
+				<td><div id="blog-calendar" style=""><table id="blogCalendar" class="Cal" cellspacing="0" cellpadding="0" title="日历">
+	<tbody><tr><td colspan="7"><table class="CalTitle" cellspacing="0">
+		<tbody><tr><td class="CalNextPrev"><a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2014/04/01&#39;);return false;">&lt;</a></td><td align="center">2014年5月</td><td class="CalNextPrev" align="right"><a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2014/06/01&#39;);return false;">&gt;</a></td></tr>
+	</tbody></table></td></tr><tr><th class="CalDayHeader" align="center" abbr="日" scope="col">日</th><th class="CalDayHeader" align="center" abbr="一" scope="col">一</th><th class="CalDayHeader" align="center" abbr="二" scope="col">二</th><th class="CalDayHeader" align="center" abbr="三" scope="col">三</th><th class="CalDayHeader" align="center" abbr="四" scope="col">四</th><th class="CalDayHeader" align="center" abbr="五" scope="col">五</th><th class="CalDayHeader" align="center" abbr="六" scope="col">六</th></tr><tr><td class="CalOtherMonthDay" align="center">27</td><td class="CalOtherMonthDay" align="center">28</td><td class="CalOtherMonthDay" align="center">29</td><td class="CalOtherMonthDay" align="center">30</td><td align="center">1</td><td align="center">2</td><td class="CalWeekendDay" align="center">3</td></tr><tr><td class="CalTodayDay" align="center">4</td><td align="center">5</td><td align="center">6</td><td align="center">7</td><td align="center">8</td><td align="center">9</td><td class="CalWeekendDay" align="center">10</td></tr><tr><td class="CalWeekendDay" align="center">11</td><td align="center">12</td><td align="center">13</td><td align="center">14</td><td align="center">15</td><td align="center">16</td><td class="CalWeekendDay" align="center">17</td></tr><tr><td class="CalWeekendDay" align="center">18</td><td align="center">19</td><td align="center">20</td><td align="center">21</td><td align="center">22</td><td align="center">23</td><td class="CalWeekendDay" align="center">24</td></tr><tr><td class="CalWeekendDay" align="center">25</td><td align="center">26</td><td align="center">27</td><td align="center">28</td><td align="center">29</td><td align="center">30</td><td class="CalWeekendDay" align="center">31</td></tr><tr><td class="CalOtherMonthDay" align="center">1</td><td class="CalOtherMonthDay" align="center">2</td><td class="CalOtherMonthDay" align="center">3</td><td class="CalOtherMonthDay" align="center">4</td><td class="CalOtherMonthDay" align="center">5</td><td class="CalOtherMonthDay" align="center">6</td><td class="CalOtherMonthDay" align="center">7</td></tr>
+</tbody></table></div><script type="text/javascript">loadBlogDefaultCalendar();</script></td>
+			</tr>
+			</tbody></table>
+				
+				
+<div class="listtitle">统计</div>
+	<ul class="list">
+		<li class="listitem">随笔 - 38
+		</li><li class="listitem">文章 - 0
+		</li><li class="listitem">评论 - 156
+		</li><li class="listitem">引用 - 0
+	</li>
+</ul>
+				
+<h1 class="listtitle">导航</h1>
+<ul class="list">
+			<li class="listitem"><a id="MyLinks1_HomeLink" class="listitem" href="http://www.cnblogs.com/">博客园</a></li>
+			<li class="listitem"><a id="MyLinks1_MyHomeLink" href="http://www.cnblogs.com/weilengdeyu/">首页</a>
+			</li><li class="listitem"><a id="MyLinks1_NewPostLink" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">发新随笔</a>
+			</li><li class="listitem"><a id="MyLinks1_NewArticleLink" class="listitem" href="http://www.cnblogs.com/EnterMyBlog.aspx?NewArticle=1">发新文章</a></li>
+			<li class="listitem"><a id="MyLinks1_ContactLink" accesskey="9" class="listitem" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%be%ae%e5%86%b7%e7%9a%84%e9%9b%a8">联系</a></li>
+			<li class="listitem"><a id="MyLinks1_Syndication" class="listitem" href="http://www.cnblogs.com/weilengdeyu/rss">订阅</a><a id="MyLinks1_XMLLink" href="http://www.cnblogs.com/weilengdeyu/rss"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/xml.gif" alt="订阅"></a>
+			</li><li class="listitem"><a id="MyLinks1_Admin" class="listitem" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+				<div id="blog-sidecolumn">
+
+<div class="mySearch">
+<h3 class="catListTitle">搜索</h3>
+<div id="widget_my_zzk" class="div_my_zzk"><input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="zzk_go()" type="button" value="找找看" id="btnZzk" class="btn_my_zzk"></div>
+<div id="widget_my_google" class="div_my_zzk"><input type="text" name="google_q" id="google_q" onkeydown="return google_go_enter(event)" class="input_my_zzk">&nbsp;<input onclick="google_go()" type="button" value="谷歌搜索" class="btn_my_zzk"></div>
+</div>
+
+
+<h3 class="catListTitle">常用链接</h3>
+<ul>
+
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_0" href="http://www.cnblogs.com/weilengdeyu/p/">我的随笔</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_1" href="http://www.cnblogs.com/weilengdeyu/MyComments.html">我的评论</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_2" title="我发表过评论的随笔" href="http://www.cnblogs.com/weilengdeyu/OtherPosts.html">我的参与</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_3" href="http://www.cnblogs.com/weilengdeyu/RecentComments.html">最新评论</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_4" href="http://www.cnblogs.com/weilengdeyu/tag/">我的标签</a></li>
+	
+</ul>
+<div id="itemListLin_con" style="display:none;">
+
+</div>
+<h3 class="catListTitle">我的标签</h3>
+<div id="MyTag">
+<ul>
+<li><a href="http://www.cnblogs.com/weilengdeyu/tag/ASP.NET%20%20%20ViewState%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90/">ASP.NET   ViewState简要分析</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/ASP.NET%20%20GridView%20%20%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%20%20%20%20RowComand%20%20%20RowDeleting/">ASP.NET  GridView  删除数据    RowComand   RowDeleting</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/ASP.NET%20%20%E9%AA%8C%E8%AF%81%E6%8E%A7%E4%BB%B6%20%20%E6%80%BB%E7%BB%93/">ASP.NET  验证控件  总结</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/Asp.net%20GirdView%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95/">Asp.net GirdView进阶用法</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/Asp.Net%20MVC%20%20%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%20%E5%8C%97%E5%A4%A7%E9%9D%92%E9%B8%9F%20%20%20%20MVC%E4%B8%96%E7%95%8C/">Asp.Net MVC   第一个程序 北大青鸟    MVC世界</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/Asp.Net%20MVC%20%E7%AE%80%E5%8D%95%E5%BC%80%E5%8F%91%20%20MVC%E5%88%9D%E6%AD%A5%20%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F/">Asp.Net MVC 简单开发  MVC初步  第一个程序</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/Asp.Net%20MVC%20%E7%AE%80%E5%8D%95%E5%BC%80%E5%8F%91%20%20MVC%E5%88%9D%E6%AD%A5%20%20%E7%BB%8F%E5%85%B8%E8%B7%AF%E7%94%B1/">Asp.Net MVC 简单开发  MVC初步  经典路由</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/Asp.net%20%E4%B8%ADGridView%E5%AD%97%E6%AE%B5%E7%B1%BB%E5%9E%8B/">Asp.net 中GridView字段类型</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/c%23%20%20Socket%20%20%E7%B2%BE%E5%8D%8E/">c#  Socket  精华</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/c%23%20%E7%A8%8B%E5%BA%8F%E9%9B%86%E5%92%8C%E5%8F%8D%E5%B0%84/">c# 程序集和反射</a>(1)</li><li><a href="http://www.cnblogs.com/weilengdeyu/tag/">更多</a></li>
+</ul>
+</div>
+		<h1 class="listtitle">随笔档案<span style="font-size:11px;font-weight:normal">(38)</span></h1>
+		
+				<ul class="list">
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_0" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2014/04.html">2014年4月 (3)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_1" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2014/03.html">2014年3月 (2)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_2" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2014/01.html">2014年1月 (1)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_3" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/12.html">2013年12月 (4)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_4" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/08.html">2013年8月 (1)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_5" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/07.html">2013年7月 (1)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_6" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/06.html">2013年6月 (4)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_7" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/05.html">2013年5月 (3)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_8" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/04.html">2013年4月 (2)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_9" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/03.html">2013年3月 (4)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_10" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/02.html">2013年2月 (2)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_11" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2013/01.html">2013年1月 (5)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_12" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2012/12.html">2012年12月 (4)</a>  </li>
+			
+				<li class="listitem"><a id="ctl03_CatList_LinkList_0_Link_13" class="listitem" href="http://www.cnblogs.com/weilengdeyu/archive/2012/11.html">2012年11月 (2)</a>  </li>
+			
+				</ul>
+			
+	
+
+<h3 class="catListTitle">最新评论</h3>
+<div class="RecentComment" id="RecentComments">
+	<div id="RecentCommentsBlock"><ul>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/weilengdeyu/p/3680448.html#2922905">1. Re:Tomcat 让百度的域名显示自己的页面内容（玩耍篇）</a></li>
+    <li class="recent_comment_body">这个没有通过DHCP解析域名 直接使用设置在本地的地址嘛 其实也没什么嘛 很多时候我们想干点坏事 比如绕过软件注册的地址 当然这种方式看上去更像是浏览器被劫持了</li>
+    <li class="recent_comment_author">--csharpxu</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/weilengdeyu/p/3680448.html#2922895">2. Re:Tomcat 让百度的域名显示自己的页面内容（玩耍篇）</a></li>
+    <li class="recent_comment_body">艾玛,这也到首页了呀</li>
+    <li class="recent_comment_author">--calvinK</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/weilengdeyu/p/3680448.html#2922890">3. Re:Tomcat 让百度的域名显示自己的页面内容（玩耍篇）</a></li>
+    <li class="recent_comment_body">这好玩吗？</li>
+    <li class="recent_comment_author">--Goodspeed</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/weilengdeyu/p/3611725.html#2899936">4. Re:DataGridView绑定复杂实体(属性本身又是实体)</a></li>
+    <li class="recent_comment_body">前几天做得的一个利用自定义的DataGridViewColumn去显示,结果失败...</li>
+    <li class="recent_comment_author">--深海苍狼</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/weilengdeyu/p/3588472.html#2894136">5. Re:EF结合三层：三层中数据层父类和业务层父类的使用</a></li>
+    <li class="recent_comment_body">mark 谢谢分享</li>
+    <li class="recent_comment_author">--沈赟</li>
+</ul>
+</div>
+</div>
+
+<h3 class="catListTitle">阅读排行榜</h3>
+<div class="RecentComment" id="TopViewPosts"> 
+	<div id="TopViewPostsBlock"><ul><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/19/2868022.html">1. 灵动思绪EF(Entity FrameWork)(8178)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/03/08/2949101.html">2. C# Socket网络编程精华篇(5307)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/04/2844847.html">3. .NET三层架构开发初步(3657)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/02/28/2937972.html">4. C#多线程案例基础(2871)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/03/21/2974596.html">5. ASP.NET   ViewState简要分析(2068)</a></li></ul></div>
+</div>
+
+<h3 class="catListTitle">评论排行榜</h3>
+<div class="RecentComment" id="TopCommentsPosts">
+	<div id="TopFeedbackPostsBlock"><ul><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/19/2868022.html">1. 灵动思绪EF(Entity FrameWork)(49)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/10/2855252.html">2. 6年之后，开启Oracle学习之旅(11)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/03/08/2949101.html">3. C# Socket网络编程精华篇(11)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/05/02/3055106.html">4. 关于C# base关键字的内存分析(9)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/02/28/2937972.html">5. C#多线程案例基础(8)</a></li></ul></div>
+</div>
+<h3 class="catListTitle">推荐排行榜</h3>
+<div class="RecentComment">
+	<div id="TopDiggPostsBlock"><ul><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/19/2868022.html">1. 灵动思绪EF(Entity FrameWork)(20)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/03/08/2949101.html">2. C# Socket网络编程精华篇(11)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/04/2844847.html">3. .NET三层架构开发初步(7)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/16/2863384.html">4. JS基础之开篇(5)</a></li><li><a href="http://www.cnblogs.com/weilengdeyu/archive/2013/01/10/2855252.html">5. 6年之后，开启Oracle学习之旅(4)</a></li></ul></div>
+</div></div><script type="text/javascript">loadBlogSideColumn();</script>
+				
+				<div class="spacer">&nbsp;</div>
+		</td>
+		<td valign="top" style="padding-left:20px">
+				
+
+<div class="singlepost">
+	<div class="posttitle">
+		<a id="cb_post_title_url" class="singleposttitle" href="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园.htm">北大青鸟网络电视精灵代码剖析</a>
+	</div>
+	<div id="cnblogs_post_body"><p class="p0"><span style="font-size: 16px;">这篇文章的目的主要为了后续工作的使用，在这里对<span style="font-family: &#39;Times New Roman&#39;;">S2</span><span style="font-family: 宋体;">深入</span><span style="font-family: &#39;Times New Roman&#39;;">.NET</span><span style="font-family: 宋体;">平台和</span><span style="font-family: &#39;Times New Roman&#39;;">C#</span><span style="font-family: 宋体;">编程中贯穿案例《网络电视精灵》的部分实现代码进行思路剖析。</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;<span style="color: #ff0000;">一、项目框架的搭建：</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;我们都知道开发一个项目之前，应该对项目的整体框架进行搭建。或者专业一点称为详细设计。解析来我们就来看下网络电视精灵的大致结构，当然后续的功能可能还需要加入其它类。</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;思路分析：&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">1.创建对应的类</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;<img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155247-157d3aaeccac476ca07189a9e26c308f.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;">TvProgram<span style="font-family: 宋体;">：节目类</span></span></p>
+<p class="p0"><span style="font-family: 宋体; font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155317-af1eb0499f3f46ae9883efd90f845d2f.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">该类主要负责定义节目的属性，为后续从<span style="font-family: &#39;Times New Roman&#39;;">xml</span><span style="font-family: 宋体;">文件中读取的内容提供存放位置。</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">ChannelBase<span style="font-family: 宋体;">：频道基类</span></span></p>
+<p class="p0"><span style="font-family: 宋体; font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155406-e431c36803b34e72a3def55ba82529e0.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">TypeAChannel<span style="font-family: 宋体;">：</span><span style="font-family: &#39;Times New Roman&#39;;">A</span><span style="font-family: 宋体;">类频道</span></span></p>
+<p class="p0"><span style="font-size: 16px;">TypeBChannel<span style="font-family: 宋体;">：</span><span style="font-family: &#39;Times New Roman&#39;;">B</span><span style="font-family: 宋体;">类频道</span></span></p>
+<p class="p0"><span style="font-family: 宋体; font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155525-0104c06f50f445b8bfb279ec63e16093.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">ChannelFactory<span style="font-family: 宋体;">：工厂类</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155634-2b71d81ee0664f639837dae414de5690.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">上述四个类主要控制频道信息</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">ChannelManager<span style="font-family: 宋体;">：频道管理类</span></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">该类主要作用实质上减轻窗体中的代码量。相当于程序的工具类。</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">2013<span style="font-family: 宋体;">年</span><span style="font-family: &#39;Times New Roman&#39;;">8</span><span style="font-family: 宋体;">月</span><span style="font-family: &#39;Times New Roman&#39;;">18</span><span style="font-family: 宋体;">日</span></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">任务；加载所有的频道信息，绑定到界面的<span style="font-family: &#39;Times New Roman&#39;;">TreeView</span><span style="font-family: 宋体;">上</span></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">核心思路：</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;1.<span style="font-family: 宋体;">首先在频道管理类</span><span style="font-family: &#39;Times New Roman&#39;;">ChannelManager</span><span style="font-family: 宋体;">中写一个加载所有频道方法</span><span style="font-family: &#39;Times New Roman&#39;;">LoadAllChannel;</span></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该方法作用读取FullChannels.xml文件，并且将读取到的内容赋值给ChannelBase&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family: 宋体;">对象。关键的问题就转化成了</span>如何创建一个<span style="font-family: &#39;Times New Roman&#39;;">ChannelBase</span><span style="font-family: 宋体;">对象</span>。我们都知道<span style="font-family: &#39;Times New Roman&#39;;">ChannelBase</span><span style="font-family: 宋体;">本身是一个抽象类，无法创建实例。由此，我们想到可以通过其子类来创建对象。由于不同子类实例化需要多次</span><span style="font-family: &#39;Times New Roman&#39;;">new</span><span style="font-family: 宋体;">，我们单独写了一个工厂类</span><span style="font-family: &#39;Times New Roman&#39;;">(ChannelFafactory)</span><span style="font-family: 宋体;">，来创建子类实例，但是该子类实例存储在父类变量中。赋值完成后，我们需要将频道对象添加到字典中。那么</span></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">LoadAllChannel<span style="font-family: 宋体;">方法结束后，字典中就有了</span><span style="font-family: &#39;Times New Roman&#39;;">XML</span><span style="font-family: 宋体;">文档中的数据。也就是我们实现了将</span></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">本地硬盘上的<span style="font-family: &#39;Times New Roman&#39;;">xml</span><span style="font-family: 宋体;">文件中的数据读取到了内存中的一个字典集合中。</span></span></p>
+<p class="p0"><span style="font-family: 宋体; font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155711-b4b6c79575e54786b407d392f0099c52.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">2.<span style="font-family: 宋体;">将集合中的数据绑定到</span><span style="font-family: &#39;Times New Roman&#39;;">TreeView</span><span style="font-family: 宋体;">中</span></span></p>
+<p class="p0"><span style="font-size: 16px;">将字典集合中的数据通过<span style="font-family: &#39;Times New Roman&#39;;">Foreach</span><span style="font-family: 宋体;">拆解，每循环一项，都创建一个</span><span style="font-family: &#39;Times New Roman&#39;;">TreeNode</span><span style="font-family: 宋体;">对象。</span></span></p>
+<p class="p0"><span style="font-size: 16px;">并且将集合中的属性赋值给节点对应的属性。然后将拼接处的节点添加到<span style="font-family: &#39;Times New Roman&#39;;">TreeView</span><span style="font-family: 宋体;">上</span></span></p>
+<p class="p0"><span style="font-size: 16px;">。这里需要注意的是，如何找到<span style="font-family: &#39;Times New Roman&#39;;">TreeView</span><span style="font-family: 宋体;">控件中的【所有电视台】这个节点，因为</span></span></p>
+<p class="p0"><span style="font-size: 16px;">我们需要在该节点上添加频道名称。代码如下：</span></p>
+<p class="p0"><span style="font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155756-e8f54b6d2f6e47ea8954acce7cdc9c00.png" alt=""></span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">2013<span style="font-family: 宋体;">年</span><span style="font-family: &#39;Times New Roman&#39;;">8</span><span style="font-family: 宋体;">月</span><span style="font-family: &#39;Times New Roman&#39;;">21</span><span style="font-family: 宋体;">日</span></span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">扩展：<span style="font-family: &#39;Times New Roman&#39;;">DGV</span><span style="font-family: 宋体;">绑定</span><span style="font-family: &#39;Times New Roman&#39;;">List&lt;T&gt;</span></span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">List&lt;T&gt;&nbsp;list=new&nbsp;&nbsp;List&lt;T&gt;<span style="font-family: 宋体;">（）</span><span style="font-family: &#39;Times New Roman&#39;;">;</span></span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">dgv.DataSource=new&nbsp;BindingList&lt;T&gt;(list);</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">任务：<span style="font-family: &#39;Times New Roman&#39;;">1.</span><span style="font-family: 宋体;">将频道节目单填充到</span><span style="font-family: &#39;Times New Roman&#39;;">DataGridView</span><span style="font-family: 宋体;">中</span></span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.<span style="font-family: 宋体;">实现</span><span style="font-family: &#39;Times New Roman&#39;;">TreeView</span><span style="font-family: 宋体;">的右键菜单功能（能添加电台和删除电台）</span></span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.<span style="font-family: 宋体;">右键菜单控制</span></span></p>
+<p class="p0"><span style="font-size: 16px;">核心思路：</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;将频道节目单填充到<span style="font-family: &#39;Times New Roman&#39;;">DataGridView</span><span style="font-family: 宋体;">中</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.<span style="font-family: 宋体;">在对应的频道子类中书写</span><span style="font-family: &#39;Times New Roman&#39;;">Fetch</span><span style="font-family: 宋体;">方法，解析对应的频道</span><span style="font-family: &#39;Times New Roman&#39;;">xml</span><span style="font-family: 宋体;">文件，然后将</span><span style="font-family: &#39;Times New Roman&#39;;">xml</span><span style="font-family: 宋体;">文件中的数据读取到</span>&nbsp;public&nbsp;List&lt;TvProgram&gt;&nbsp;&nbsp;TvList&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}中。</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;2.将TvList中的数据绑定到DataGridView上</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">实现<span style="font-family: &#39;Times New Roman&#39;;">TreeView</span><span style="font-family: 宋体;">的右键菜单功能（能添加电台和删除电台）</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;核心思路：</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.<span style="font-family: 宋体;">添加电台</span></span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;<img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155840-4bf892b98c2d45d1abd5ad22454b0b0a.png" alt=""></span></p>
+<p class="p0"><span style="font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155856-5f802c85852c46f88c74e6b2aa9f9579.png" alt="" style="width: 651px; "></span></p>
+<p class="p0"><span style="font-size: 16px;">其实我们在做的事情就是先获取所有电台的某一个电台(北京电视台)，然后通过</span></p>
+<p class="p0"><span style="font-size: 16px;">Tag属性拿到该电台对应的属性，将拆解出来的属性赋值给我的电台下的某一个</span></p>
+<p class="p0"><span style="font-size: 16px;">节点，由于节点不存在，所以我们要构造出一个节点。然后赋值，赋值完成后，我们就将构造出来的&nbsp;节点添加到我的电台下就OK。</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">当然，上面的操作仅仅是界面上新增电台的一个假象。程序再次运行时，我们添加的电台并没有保存。所以我们要将选中的电台添加到我的电台(由于我喜欢的电台可能有多个，所以我们定义了一个集合。)集合中。因为我们大家都知道集合中的数据时存储在内存中的，所以我们要向程序下次运行时，显示出我们添加的电台，那么就必须将集合中的数据永久保存。当然我们知道，永久保存数据的方法有很多，在这里我们采取的是使用txt文件的方式，所以我们书写了一个方法来帮我们完成这项工作，sw.WriteLine(“End”)主要为了方便后面对文本文件的读取</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">归结起来有3点：</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">&nbsp;&nbsp;01.在TreeView中添加节点</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">&nbsp;&nbsp;02.向集合中添加节点</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">&nbsp;&nbsp;03.将集合中数据写入文本文件</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">删除电台思路与这个差不多！就不赘述了。</span></p>
+<p class="p0"><span style="color: #ff0000; font-size: 16px;">右键菜单控制</span></p>
+<p class="p0"><span style="font-size: 16px;">核心思路：通过<span style="font-family: &#39;Times New Roman&#39;;">Visible</span><span style="font-family: 宋体;">属性控制右键菜单的显示和隐藏</span></span></p>
+<p class="p0"><span style="font-family: 宋体; font-size: 16px;"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/21155916-37e7b99205364e4ea3d876aaf099ddc5.png" alt=""></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p>
+<p class="p0"><span style="font-size: 16px;">&nbsp;</span></p></div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="blog_post_info"><div id="BlogPostCategory"></div>
+<div id="EntryTag">标签: <a href="http://www.cnblogs.com/weilengdeyu/tag/%E5%8C%97%E5%A4%A7%E9%9D%92%E9%B8%9F%20%20%E7%BD%91%E7%BB%9C%E7%94%B5%E8%A7%86%E7%B2%BE%E7%81%B5%20%20%E6%80%9D%E8%B7%AF%E5%89%96%E6%9E%90/">北大青鸟  网络电视精灵  思路剖析</a></div>
+<div id="green_channel">
+绿色通道：
+<a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(cb_entryId,cb_blogId,1);green_channel_success(this,&#39;谢谢推荐！&#39;);">好文要顶</a>
+<a id="green_channel_follow" onclick="c_follow();" href="javascript:void(0);">关注我</a>
+<a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);">收藏该文</a><a id="green_channel_contact" href="http://space.cnblogs.com/msg/send/%e5%be%ae%e5%86%b7%e7%9a%84%e9%9b%a8" target="_blank">与我联系</a>
+<a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/icon_weibo_24.png" alt=""></a>
+</div>
+<div id="digg_block">
+<div id="author_profile">
+<div id="author_profile_info" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/weilengdeyu/" target="_blank"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/u228656.png" class="author_avatar" alt=""></a>
+<div id="author_profile_detail" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/weilengdeyu/">微冷的雨</a><br>
+<a href="http://home.cnblogs.com/u/weilengdeyu/followees">关注 - 115</a><br>
+<a href="http://home.cnblogs.com/u/weilengdeyu/followers">粉丝 - 132</a>
+</div>
+</div>
+<div class="clear"></div>
+<div id="author_profile_honor"></div>
+<div id="author_profile_follow">
+<a href="javascript:void(0);" onclick="c_follow();return false;">+加关注</a>
+</div>
+</div>
+<div id="div_digg">										
+	<div class="diggit" onclick="votePost(cb_entryId,&#39;Digg&#39;)"> 
+		<span class="diggnum" id="digg_count">0</span>
+	</div>
+	<div class="buryit" onclick="votePost(cb_entryId,&#39;Bury&#39;)"> 
+		<span class="burynum" id="bury_count">0</span>
+	</div>
+	<div class="clear"></div>	
+	<div class="diggword" id="digg_tips">
+    (请您对文章做出评价)
+    </div>	
+</div>
+</div></div>
+<div class="clear"></div>
+<div id="post_next_prev"><a href="http://www.cnblogs.com/weilengdeyu/p/3211073.html" class="p_n_p_prefix">« </a> 上一篇：<a href="http://www.cnblogs.com/weilengdeyu/p/3211073.html" title="发布于2013-07-24 17:11">ASP.NET中GridView控件删除数据的两种方法</a><br><a href="http://www.cnblogs.com/weilengdeyu/p/3461402.html" class="p_n_p_prefix">» </a> 下一篇：<a href="http://www.cnblogs.com/weilengdeyu/p/3461402.html" title="发布于2013-12-06 14:50">北大青鸟进入ASP.NET MVC的世界（一）</a><br></div>
+</div>
+
+
+	<div class="itemdesc">
+		posted on <span id="post-date">2013-08-21 16:01</span> <a href="http://www.cnblogs.com/weilengdeyu/">微冷的雨</a> 阅读(<span id="post_view_count">711</span>) 评论(<span id="post_comment_count">1</span>)  <a href="http://i.cnblogs.com/EditPosts.aspx?postid=3272865" rel="nofollow">编辑</a> <a href="http://www.cnblogs.com/weilengdeyu/p/3272865.html#" onclick="AddToWz(3272865);return false;">收藏</a>
+	</div>
+</div>
+	<script type="text/javascript">var allowComments=true,isLogined=true,cb_blogId=134806,cb_entryId=3272865,cb_blogApp=currentBlogApp,cb_blogUserGuid='bb09a9fb-7700-e011-ac81-842b2b196315',cb_entryCreatedDate='2013/8/21 16:01:00';loadViewCount(cb_entryId);</script>
+	
+<a name="!comments"></a><div id="blog-comments-placeholder"><div id="comments_pager_top"></div>
+评论:
+<div class="moreinfo">
+	
+			<ul class="morelist">
+		
+			<li class="morelistitem">
+				<div class="moreinfotitle">
+					<a href="http://www.cnblogs.com/weilengdeyu/p/3272865.html#2756981" class="layer">#1楼</a><a name="2756981" id="comment_anchor_2756981"></a><span id="comment-maxId" style="display:none;">2756981</span><span id="comment-maxDate" style="display:none;">2013/8/21 16:37:19</span>&nbsp;&nbsp;<a id="a_comment_author_2756981" href="http://www.cnblogs.com/ITniao/" target="_blank">IT鸟</a> <a href="http://space.cnblogs.com/msg/send/IT%e9%b8%9f" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+				Posted @  <span class="comment_date">2013-08-21 16:37</span>
+				</div>
+				<div id="comment_body_2756981" class="blog_comment_body">播放地址呢？</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2756981,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2756981,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_2756981_avatar" style="display:none;">http://pic.cnitblog.com/face/u59932.jpg?id=22105115</span>
+				&nbsp;&nbsp;<span class="comment_actions"><a href="javascript:void(0);" onclick="return ReplyComment(2756981,&#39;EME2zH7aAjJFOgf/Uc2XqGYxjsMB1uwSHtCpPZIVcOdAkwj1jRbBsw==&#39;)">回复</a><a href="javascript:void(0);" onclick="return QuoteComment(2756981,&#39;EME2zH7aAjJFOgf/Uc2XqGYxjsMB1uwSHtCpPZIVcOdAkwj1jRbBsw==&#39;)">引用</a><a href="javascript:void(0);" onclick="return DelComment(2756981,this)">删除</a></span><br>
+				
+				<br>
+			</li>
+		
+			</ul>
+		
+</div>
+
+
+<div id="comments_pager_bottom"></div></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id="comment_form" class="commentform">
+<a name="commentform"></a>
+<div id="divCommentShow"></div>
+<div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" id="lnk_RefreshComments" onclick="return RefreshCommentList();">刷新评论</a><a href="http://www.cnblogs.com/weilengdeyu/p/3272865.html#" onclick="return RefreshPage();">刷新页面</a><a href="http://www.cnblogs.com/weilengdeyu/p/3272865.html#top">返回顶部</a></div>
+<div id="comment_form_container"><div id="commentform_title">发表评论</div>
+<span id="tip_comment" style="color:Red"></span>
+<p>
+昵称：<input type="text" id="tbCommentAuthor" class="author" disabled="disabled" size="50" value="微冷的雨">
+</p>
+<div class="commentbox_main">
+<div class="commentbox_title">
+<div class="commentbox_title_left">评论内容：</div>
+<div class="commentbox_title_right">
+<img id="ubb_quote" class="comment_icon" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/quote.gif" alt="引用" title="添加引用" onclick="insertUBB(&#39;tbCommentBody&#39;,&#39;quote&#39;)">
+<img id="ubb_bold" class="comment_icon" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/b.png" alt="粗体" title="添加粗体" onclick="insertUBB(&#39;tbCommentBody&#39;,&#39;b&#39;)">
+<img id="ubb_url" class="comment_icon" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/lk.png" alt="链接" title="添加链接" onclick="insertUbbUrl(&#39;tbCommentBody&#39;)">
+<img id="ubb_indent" class="comment_icon" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/indent.png" alt="缩进" title="添加首行缩进" onclick="insertIndent(&#39;tbCommentBody&#39;)">
+<img id="ubb_code" class="comment_icon" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/InsertCode.gif" alt="代码" title="添加代码" onclick="insertUbbCode()">
+<img id="ubb_img" class="comment_icon" src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/img.gif" alt="图片" title="上传图片" onclick="OpenImageUploadWindow();">
+</div>
+</div>
+<div class="clear"></div>
+<textarea id="tbCommentBody" class="comment_textarea" rows="20" cols="50"></textarea>
+</div>
+<p id="commentbox_opt">
+<input id="btn_comment_submit" type="button" class="comment_btn" value="提交评论">
+<span id="span_comment_canceledit" style="display:none"><a href="javascript:void(0);" onclick="return CancelCommentEdit()">不改了</a></span>
+<a href="javascript:void(0);" onclick="return logout();">注销</a>
+</p>
+<p>
+[使用Ctrl+Enter键快速提交]
+</p>
+<div style="display:none">
+<span id="comment_edit_id"></span><span id="span_parentcomment_id"></span>
+<span id="span_parent_id"></span>
+<span id="span_comment_replyto"></span>
+<span id="span_comment_posted"></span>
+</div>
+</div>
+<div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+<div id="site_nav_under"><a href="http://www.cnblogs.com/" target="_blank" title="程序员的网上家园">博客园首页</a><a href="http://q.cnblogs.com/" target="_blank" title="程序员问答社区">博问</a><a href="http://news.cnblogs.com/" target="_blank" title="IT新闻">新闻</a><a href="http://home.cnblogs.com/ing/" target="_blank">闪存</a><a href="http://job.cnblogs.com/" target="_blank">程序员招聘</a><a href="http://kb.cnblogs.com/" target="_blank">知识库</a></div>
+<div id="ad_under_post_holder">
+
+<div id="google_ad_c1" class="c_ad_block">
+    <!-- cnblogs_blogpost_C1_sitehome -->
+    <div id="div-gpt-ad-1346480159711-0" style="width:300px; height:250px;">
+    
+    <div id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0__container__" style="border-top-width: 0pt; border-right-width: 0pt; border-bottom-width: 0pt; border-left-width: 0pt; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-color: initial; "><iframe id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0" name="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; vertical-align: bottom; " src="javascript:"<html><body style='background:transparent'></body></html>""></iframe></div><iframe id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0__hidden__" name="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; vertical-align: bottom; visibility: hidden; display: none; " src="javascript:"<html><body style='background:transparent'></body></html>""></iframe></div>
+</div>
+<div id="blog_news_kb"><div class="itnews c_ad_block"><b>最新IT新闻</b>:<br> ·  <a href="http://news.cnblogs.com/n/207018/" target="_blank">人人公司最新股权曝光：CEO陈一舟持股25.7%</a><br> ·  <a href="http://news.cnblogs.com/n/207017/" target="_blank">阿里疯狂并购的三个真实动机</a><br> ·  <a href="http://news.cnblogs.com/n/207016/" target="_blank">你的DNA正悄悄地出卖你</a><br> ·  <a href="http://news.cnblogs.com/n/207015/" target="_blank">理财通7日年化收益率全线破5%</a><br> ·  <a href="http://news.cnblogs.com/n/207014/" target="_blank">还记得西祠胡同么？</a><br>» <a href="http://news.cnblogs.com/" title="IT新闻" target="_blank">更多新闻...</a></div><div class="itnews c_ad_block" id="kb_block"><b>最新知识库文章</b>:<br><div id="kb_recent"> ·  <a href="http://kb.cnblogs.com/page/177108/" target="_blank">闭包漫谈（从抽象代数及函数式编程角度）</a><br> ·  <a href="http://kb.cnblogs.com/page/193450/" target="_blank">Facebook和Google如何激发工程师的创造力</a><br> ·  <a href="http://kb.cnblogs.com/page/192941/" target="_blank">好的程序员到底好在哪里？</a><br> ·  <a href="http://kb.cnblogs.com/page/206478/" target="_blank">关于坐标系和投影的相关知识探讨</a><br> ·  <a href="http://kb.cnblogs.com/page/204411/" target="_blank">段念：永远选择自己想要的</a><br></div>» <a href="http://kb.cnblogs.com/" target="_blank">更多知识库文章...</a></div></div></div>
+<script type="text/javascript">
+var enableGoogleAd = true;
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+fixPostBodyFormat();
+loadAdUnderPost();
+</script>
+<div id="HistoryToday" class="c_ad_block"></div>
+<script type="text/javascript">
+loadBlogSignature();
+LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate);
+GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+</script>
+<script type="text/javascript">
+    $.ajax({ url: 'http://counter.cnblogs.com/blog/post/' + cb_entryId, type: 'get', dataType: 'script', cache: true });
+</script>
+</div>
+
+				<div class="spacer">&nbsp;</div>	
+		</td>
+	</tr>
+	</tbody></table>
+
+
+		
+
+<table width="97%" align="center" cellpadding="2" cellspacing="0" border="0">
+<tbody><tr>
+	<td colspan="2" align="center"><a href="http://www.cnblogs.com/"><img src="./北大青鸟网络电视精灵代码剖析 - 微冷的雨 - 博客园_files/footer.gif" border="0"></a></td>
+</tr>
+<tr>
+	<td align="right" width="45%">Copyright © 微冷的雨</td><td align="left">
+	Powered by: <a href="http://www.cnblogs.com/">博客园</a>	模板提供：<a href="http://blog.hjenglish.com/">沪江博客</a>
+	</td>
+</tr></tbody></table>
+
+
+
+	
+
+	</div>
+
+
+
+<iframe id="google_osd_static_frame_5668577777687" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px; "></iframe></body></html>

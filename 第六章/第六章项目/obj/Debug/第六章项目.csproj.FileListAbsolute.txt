@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2012\Projects\第六章项目\第六章项目\bin\Debug\第六章项目.exe.config
+c:\users\administrator\documents\visual studio 2012\Projects\第六章项目\第六章项目\obj\Debug\第六章项目.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\第六章项目\第六章项目\bin\Debug\第六章项目.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\第六章项目\第六章项目\bin\Debug\第六章项目.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\第六章项目\第六章项目\obj\Debug\第六章项目.exe
+C:\Users\Administrator\documents\visual studio 2012\Projects\第六章项目\第六章项目\obj\Debug\第六章项目.pdb
+C:\Users\Administrator\Desktop\S2\第六章\第六章项目\bin\Debug\第六章项目.exe.config
+C:\Users\Administrator\Desktop\S2\第六章\第六章项目\obj\Debug\第六章项目.exe
+C:\Users\Administrator\Desktop\S2\第六章\第六章项目\obj\Debug\第六章项目.pdb
+C:\Users\Administrator\Desktop\S2\第六章\第六章项目\bin\Debug\第六章项目.exe
+C:\Users\Administrator\Desktop\S2\第六章\第六章项目\bin\Debug\第六章项目.pdb
+C:\Users\Administrator\Desktop\S2\第六章\第六章项目\obj\Debug\第六章项目.csprojResolveAssemblyReference.cache

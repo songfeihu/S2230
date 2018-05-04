@@ -1,0 +1,10 @@
+F:\TecahCode\S2230NET\S2230NET\Day01_0100\bin\Debug\Day01_0100.exe.config
+C:\Users\Administrator\Desktop\S2230NET\Day01_0100\bin\Debug\Day01_0100.exe.config
+C:\Users\Administrator\Desktop\S2230NET\Day01_0100\bin\Debug\Day01_0100.exe
+C:\Users\Administrator\Desktop\S2230NET\Day01_0100\bin\Debug\Day01_0100.pdb
+C:\Users\Administrator\Desktop\S2230NET\Day01_0100\obj\Debug\Day01_0100.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\S2230NET\Day01_0100\obj\Debug\Day01_0100.exe
+C:\Users\Administrator\Desktop\S2230NET\Day01_0100\obj\Debug\Day01_0100.pdb
+C:\Users\Administrator\Desktop\S2\原老师教材\Day01_0100\bin\Debug\Day01_0100.exe.config
+C:\Users\Administrator\Desktop\S2\原老师教材\Day01_0100\obj\Debug\Day01_0100.exe
+C:\Users\Administrator\Desktop\S2\原老师教材\Day01_0100\obj\Debug\Day01_0100.pdb

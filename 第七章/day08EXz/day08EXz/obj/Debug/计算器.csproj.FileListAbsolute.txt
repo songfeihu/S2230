@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\bin\Debug\day08EXz.exe.config
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\obj\Debug\day08EXz.exe
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\obj\Debug\day08EXz.pdb
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\bin\Debug\day08EXz.exe
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\bin\Debug\day08EXz.pdb
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\obj\Debug\计算器.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\obj\Debug\day08EXz.Form1.resources
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\obj\Debug\day08EXz.Properties.Resources.resources
+C:\Users\Administrator\Desktop\S2\第七章\day08EXz\day08EXz\obj\Debug\计算器.csproj.GenerateResource.Cache
